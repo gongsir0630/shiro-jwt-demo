@@ -1,0 +1,31 @@
+# 设置日志级别
+logging:
+    level:
+        org.springframework.web: info
+        com.github.gongsir0630.demo: debug
+# dev环境配置文件
+spring:
+    # 数据库相关配置信息: 无需再本地安装mysql,使用yzhelp.top云端数据库
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://yzhelp.top:3306/xy
+        username: root
+        password: admin1234
+    # redis 配置信息: 在本地安装redis
+    redis:
+        host: 127.0.0.1
+        port: 6379
+        database: 0
+
+---
+# 服务启动的端口号
+server:
+  port: 8080
+
+---
+# 微信小程序配置 appid / url
+wx:
+    # 小程序AppId
+    appid: wx2e1d0d6fb608404c
+    # 自研小程序接口调用地址
+    url: http://localhost:8081/wx
