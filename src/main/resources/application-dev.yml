@@ -8,7 +8,7 @@ spring:
     # 数据库相关配置信息: 无需再本地安装mysql,使用yzhelp.top云端数据库
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://yzhelp.top:3306/xy
+        url: jdbc:mysql://localhost:3306/shiro-jwt-demo
         username: root
         password: admin1234
     # redis 配置信息: 在本地安装redis

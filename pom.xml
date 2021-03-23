@@ -137,7 +137,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.github.gongsir0630.demo.ShiroJwtDemoApplication</mainClass>
+                    <mainClass>com.github.gongsir0630.shirodemo.ShiroJwtDemoApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

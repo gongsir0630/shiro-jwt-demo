@@ -1,4 +1,4 @@
-package com.github.gongsir0630.demo;
+package com.github.gongsir0630.shirodemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
