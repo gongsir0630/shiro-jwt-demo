@@ -2,7 +2,7 @@
 logging:
     level:
         org.springframework.web: info
-        com.github.gongsir0630.demo: debug
+        com.github.gongsir0630.shirodemo: debug
 # dev环境配置文件
 spring:
     # 数据库相关配置信息: 无需再本地安装mysql,使用yzhelp.top云端数据库
